@@ -25,7 +25,7 @@ public class TutorialMod {
 
         MinecraftForge.EVENT_BUS.register(this);
     }
-    //important comment
+    //important comme
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
