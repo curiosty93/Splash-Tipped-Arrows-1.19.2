@@ -1,5 +1,8 @@
 {
   "item.tutorialmod.rowlet": "Rowlet",
+  "item.tutorialmod.wooper": "Wooper",
+
+  "block.tutorialmod.berry_box_block": "Block of berry",
 
   "itemGroup.tutorialtab": "Rowletisim"
 }

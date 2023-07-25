@@ -23,6 +23,13 @@ public class ModItems {
 
             ));
 
+    public static final RegistryObject<Item> WOOPER = ITEMS.register("wooper",
+            () -> new Item(new Item.Properties()
+                    .tab(ModCreativeModeTab.TUTORIAL_TAB)
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(1)
+
+            ));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
