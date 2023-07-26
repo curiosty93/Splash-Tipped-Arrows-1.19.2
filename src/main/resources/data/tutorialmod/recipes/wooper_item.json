@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "Y": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "SYS",
+    "YXY",
+    "YYY"
+  ],
+  "result": {
+    "item": "tutorialmod:wooper"
+  }
+}

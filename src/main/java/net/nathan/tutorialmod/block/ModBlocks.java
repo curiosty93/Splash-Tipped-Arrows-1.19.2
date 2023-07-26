@@ -21,7 +21,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
 
     public static final RegistryObject<Block> BERRY_BOX = registerBlock("berry_box_block", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-            .strength(6f)), ModCreativeModeTab.TUTORIAL_TAB);
+            .strength(2f)), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject <T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
