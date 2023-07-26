@@ -1,7 +1,7 @@
 package net.nathan.tutorialmod.item;
 
 
-import net.kaupenjoe.tutorialmod.item.custom.EightBallItem;
+import net.nathan.tutorialmod.item.custom.EightBallItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Rarity;
 import net.nathan.tutorialmod.TutorialMod;
