@@ -1,6 +1,7 @@
 package net.nathan.tutorialmod.item;
 
 
+import net.kaupenjoe.tutorialmod.item.custom.EightBallItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Rarity;
 import net.nathan.tutorialmod.TutorialMod;
@@ -25,6 +26,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> WOOPER = ITEMS.register("wooper",
             () -> new Item(new Item.Properties()
+                    .tab(ModCreativeModeTab.TUTORIAL_TAB)
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(1)
+
+            ));
+
+    public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
+            () -> new EightBallItem(new Item.Properties()
                     .tab(ModCreativeModeTab.TUTORIAL_TAB)
                     .rarity(Rarity.EPIC)
                     .stacksTo(1)
